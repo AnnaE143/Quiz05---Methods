@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -15,6 +16,30 @@ namespace Quiz05___Methods
         public Form3()
         {
             InitializeComponent();
+        }
+
+        private void Form3_Load(object sender, EventArgs e)
+        {
+            BackColor = Color.Red;
+            Thread.Sleep(1000);
+            Refresh();
+            BackColor = Color.Green;
+            Thread.Sleep(1000);
+            Refresh();
+            BackColor = Color.Red;
+            Thread.Sleep(1000);
+            Refresh();
+            BackColor = Color.Green;
+            Thread.Sleep(1000);
+            Refresh();
+            BackColor = Color.Red;
+            Thread.Sleep(1000);
+            Refresh();
+            BackColor = Color.Green;
+            Thread.Sleep(1000);
+            Refresh();
+
+
         }
     }
 }

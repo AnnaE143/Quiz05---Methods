@@ -92,6 +92,7 @@
             q1Button.TabIndex = 4;
             q1Button.Text = "Code Me";
             q1Button.UseVisualStyleBackColor = false;
+            q1Button.Click += q1Button_Click;
             // 
             // q2Button
             // 
@@ -103,6 +104,7 @@
             q2Button.TabIndex = 7;
             q2Button.Text = "Code Me";
             q2Button.UseVisualStyleBackColor = false;
+            q2Button.Click += q2Button_Click;
             // 
             // label4
             // 
@@ -140,6 +142,7 @@
             q3Button.TabIndex = 11;
             q3Button.Text = "Code Me";
             q3Button.UseVisualStyleBackColor = false;
+            q3Button.Click += q3Button_Click;
             // 
             // label7
             // 
@@ -162,14 +165,14 @@
             // 
             aTextBox.Location = new Point(413, 179);
             aTextBox.Name = "aTextBox";
-            aTextBox.Size = new Size(100, 23);
+            aTextBox.Size = new Size(100, 27);
             aTextBox.TabIndex = 12;
             // 
             // bTextBox
             // 
             bTextBox.Location = new Point(601, 179);
             bTextBox.Name = "bTextBox";
-            bTextBox.Size = new Size(100, 23);
+            bTextBox.Size = new Size(100, 27);
             bTextBox.TabIndex = 13;
             // 
             // label9
@@ -216,7 +219,7 @@
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(9F, 19F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.White;
             ClientSize = new Size(758, 548);
